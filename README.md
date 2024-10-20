@@ -1,40 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Find a Friend App Mockup
+
+Our team is working on a new app called Find a Friend. We have a mockup of the app that we need to implement. We have already created some components and stories for them. We need you to finish the implementation of the app by creating the remaining components and stories for them.
+
+Each component has a corresponding image that shows how it should look. You can find the images in the `public/mockups` folder.
+
+We will use storybook to visually test components in isolation. Working on components in isolation will make it easier to develop and test components.
+
+Be sure to complete the component before adding it to your page. Once you have completed a component, add it to the `pages/index.js` or `pages/about.js` file if it is not there already.
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository.
+
+Then, install the dependencies:
+
+```bash
+npm install
+```
+
+Finally, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Storybook
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+To run storybook, run the following command:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm run storybook
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Open [http://localhost:6006](http://localhost:6006) with your browser to see the result.
 
-## Learn More
+## TODOS
 
-To learn more about Next.js, take a look at the following resources:
+- [ ] Add additional stories for existing components.
+- [ ] Create stories for components that don't have stories yet. (PetCallToAction and PetHeroImage)
+- [ ] Create and about page.
+- [ ] Create three more components and stories for them. (SecondaryImage, PetAboutText, and PetCard)
+- [ ] Add PropTypes for the props of all components so storybook can find them.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Mockup Figma
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+See the mockup in Figma [here](https://www.figma.com/community/file/1220006040435238030/find-a-friend-app)
