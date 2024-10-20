@@ -4,6 +4,8 @@ Our team is working on a new app called Find a Friend. We have a mockup of the a
 
 Each component has a corresponding image that shows how it should look. You can find the images in the `public/mockups` folder.
 
+You can view the mockup document [here](public/mockups/README.md). Have this page open while you work on the project.
+
 We will use storybook to visually test components in isolation. Working on components in isolation will make it easier to develop and test components.
 
 Be sure to complete the component before adding it to your page. Once you have completed a component, add it to the `pages/index.js` or `pages/about.js` file if it is not there already.
@@ -46,4 +48,6 @@ Open [http://localhost:6006](http://localhost:6006) with your browser to see the
 
 ## Mockup Figma
 
-See the mockup in Figma [here](https://www.figma.com/community/file/1220006040435238030/find-a-friend-app)
+See the original mockup in Figma [here](https://www.figma.com/community/file/1220006040435238030/find-a-friend-app)
+
+See the mockup in MarkDown [here](public/mockups/README.md)
