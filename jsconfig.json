@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",   // Set the base URL to the root of the project
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],  // Use @/ for referencing any file in the src directory
+      "@/components/*": ["components/*"]  // Use @/components/ for referencing files in the components directory
     }
   }
 }
+
