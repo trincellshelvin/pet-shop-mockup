@@ -6,10 +6,11 @@ export default function PetHeaderMenu(props) {
   const {menuItems} = props;
   return (
     <div className="bg-rose-500 flex justify-around items-center w-full">
-        <div>...TODO...</div>
-        <div>...TODO...</div>
-        <div>...TODO...</div>
-        <div>...TODO...</div>
+        <div>Home</div>
+        <div>Sobre a App</div>
+        <div>Animais Disponiveis</div>
+        <div>Sorbe a FindAFriend</div>
+        <div>contato</div>
     </div>
   );
 }

@@ -27,6 +27,7 @@ export default function Home() {
                 "/img/dog-mini-2.png",
                 "/img/cat-mini-2.png",
               ]}
+              
               numberOfPets={324}
             />
           </section>

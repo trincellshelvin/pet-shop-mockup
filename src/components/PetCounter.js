@@ -16,7 +16,7 @@ export default function PetCounter(props) {
         ))}
       </div>
       <span className="italic">
-        <strong>{numberOfPets} friends</strong> in your city
+        <strong>{numberOfPets} friends&nbsp;</strong> in your city
       </span>
     </div>
   );

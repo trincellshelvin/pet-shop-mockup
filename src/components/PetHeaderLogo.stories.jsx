@@ -33,3 +33,10 @@ export const HotDog = {
     brandName: "HotDiggityDog"
   }
 };
+
+export const FindAFurryFriend = {
+  args: {
+    logoSrc: "img/paw-face-sm-dark.png",
+    brandName: "Find A Furry Friend"
+  }
+};
